@@ -3,14 +3,24 @@ package com.example.my71.Activities;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.app.ActivityOptions;
+import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.transition.Explode;
+import android.transition.Slide;
+import android.view.Gravity;
 import android.view.View;
+import android.view.animation.DecelerateInterpolator;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.my71.R;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private CardView muktijuddo,mujib,ekattorcovi,ekkatorvideo;
+    private Button mujib,ekattorcovi,ekkatorvideo;
+    private Button muktijuddo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,13 +28,34 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         casting();
         clickListener();
+        setAnimation();
+
     }
+
+    private void setAnimation() {
+        if(Build.VERSION.SDK_INT>20) {
+            Slide slide = new Slide();
+            slide.setSlideEdge(Gravity.LEFT);
+            slide.setDuration(300);
+            slide.setInterpolator(new DecelerateInterpolator());
+            getWindow().setExitTransition(slide);
+            getWindow().setEnterTransition(slide);
+        }
+    }
+
 
     private void clickListener() {
         muktijuddo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(HomeActivity.this,MuktiJudderItihasActivity.class);
+                if(Build.VERSION.SDK_INT>20){
+                    ActivityOptions options =
+                            ActivityOptions.makeSceneTransitionAnimation(HomeActivity.this);
+                    startActivity(i,options.toBundle());
+                }else {
+                    startActivity(i);
+                }
             }
         });
 

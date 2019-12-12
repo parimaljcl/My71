@@ -18,7 +18,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/jhuddo">
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/jhuddo"
+                android:scaleType="fitXY"/>
 
 
         </LinearLayout>
@@ -42,7 +48,6 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/muktijuddoID"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="3dp"
@@ -51,6 +56,7 @@
                     app:cardElevation="5dp">
 
                     <Button
+                        android:id="@+id/muktijuddoID"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -66,7 +72,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/mujibID"
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="3dp"
@@ -75,6 +81,7 @@
                     app:cardElevation="5dp">
 
                     <Button
+                        android:id="@+id/mujibID"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -89,7 +96,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/ekkatorercobiID"
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="3dp"
@@ -98,6 +105,7 @@
                     app:cardElevation="5dp">
 
                     <Button
+                        android:id="@+id/ekkatorercobiID"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -112,7 +120,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/ekkatorervideoID"
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="3dp"
@@ -121,6 +129,7 @@
                     app:cardElevation="5dp">
 
                     <Button
+                        android:id="@+id/ekkatorervideoID"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
