@@ -1,34 +1,55 @@
 package com.example.my71.Activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.transition.Explode;
 import android.transition.Slide;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
-import android.widget.Toast;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.my71.R;
+
 
 public class HomeActivity extends AppCompatActivity {
 
     private Button mujib,ekattorcovi,ekkatorvideo;
     private Button muktijuddo;
 
+    //toolbar(Akash)
+    private Toolbar mToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView( R.layout.activity_home );
+
+        //toolbar(Akash)
+        ToolBar();
+
         casting();
         clickListener();
         setAnimation();
+
+    }
+
+    private void ToolBar() {
+
+        mToolbar = findViewById( R.id.About_toolbar );
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
+
+        //toolbar name ==>
+        mTitle.setText(R.string.mujibmuktijuddo);
+        setSupportActionBar( mToolbar );
+
+        getSupportActionBar().setDisplayShowTitleEnabled( false );
+        getSupportActionBar().setDisplayHomeAsUpEnabled( false );
 
     }
 
