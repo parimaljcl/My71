@@ -35,10 +35,10 @@ public class Paintingg {
     }
 
     public static Paintingg[] getAllPaintings(Resources res) {
-        String[] titles = res.getStringArray(R.array.paintings_titles);
-        String[] years = res.getStringArray(R.array.paintings_years);
-        String[] locations = res.getStringArray(R.array.paintings_locations);
-        TypedArray images = res.obtainTypedArray(R.array.paintings_images);
+        String[] titles = res.getStringArray(R.array.paintingss_titles);
+        String[] years = res.getStringArray(R.array.paintingss_years);
+        String[] locations = res.getStringArray(R.array.paintingss_locations);
+        TypedArray images = res.obtainTypedArray(R.array.paintingss_images);
 
         int size = titles.length;
         Paintingg[] paintinggs = new Paintingg[size];
