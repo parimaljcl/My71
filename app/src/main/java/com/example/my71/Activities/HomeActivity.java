@@ -45,7 +45,7 @@ public class HomeActivity extends AppCompatActivity {
         TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
 
         //toolbar name ==>
-        mTitle.setText(R.string.mujibmuktijuddo);
+        mTitle.setText(R.string.app_name);
         setSupportActionBar( mToolbar );
 
         getSupportActionBar().setDisplayShowTitleEnabled( false );
