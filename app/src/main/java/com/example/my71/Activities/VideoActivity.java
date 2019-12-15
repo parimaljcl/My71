@@ -1,12 +1,12 @@
 package com.example.my71.Activities;
 
+import android.os.Bundle;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.widget.TextView;
 
 import com.example.my71.R;
 import com.example.my71.adapters.VideoAdapter;
@@ -18,10 +18,18 @@ public class VideoActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     Vector<Video> youtubeVideos = new Vector<Video>();
 
+    //toolbar(Akash)
+    private Toolbar mToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
+
+
+        //toolbar(Akash)
+        ToolBar();
+
 
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
@@ -35,6 +43,21 @@ public class VideoActivity extends AppCompatActivity {
 
         VideoAdapter videoAdapter = new VideoAdapter(youtubeVideos);
         recyclerView.setAdapter(videoAdapter);
+    }
+
+
+    private void ToolBar() {
+
+        mToolbar = findViewById( R.id.Video_toolbar );
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
+
+        //toolbar name ==>
+        mTitle.setText(R.string.ekattorervideo);
+        setSupportActionBar( mToolbar );
+
+        getSupportActionBar().setDisplayShowTitleEnabled( false );
+        getSupportActionBar().setDisplayHomeAsUpEnabled( true );
+
     }
 
 }

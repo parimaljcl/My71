@@ -15,5 +15,14 @@
 
     </style>
 
+    <style name="splash_theme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_img</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowDisablePreview">true</item>
+
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
 
 </resources>

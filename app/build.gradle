@@ -38,4 +38,6 @@ dependencies {
     implementation 'com.alexvasilkov:foldable-layout:1.2.1'
     implementation 'com.alexvasilkov:android-commons:2.0.2'
 
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+
 }
