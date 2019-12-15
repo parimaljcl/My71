@@ -39,6 +39,11 @@
         <activity
             android:name=".Activities.MuktiJudderItihasActivity"
             android:parentActivityName=".Activities.HomeActivity" />
+
+
+        <activity android:name=".Activities.UnfoldableeDetailsActivityy">
+
+        </activity>
     </application>
 
 </manifest>
