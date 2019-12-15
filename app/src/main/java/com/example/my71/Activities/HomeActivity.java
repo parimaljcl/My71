@@ -96,7 +96,8 @@ public class HomeActivity extends AppCompatActivity {
         ekkatorvideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent=new Intent(HomeActivity.this,VideoActivity.class);
+                startActivity(intent);
             }
         });
 
