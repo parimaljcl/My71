@@ -1,7 +1,5 @@
 package com.example.my71.Activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
@@ -10,6 +8,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.alexvasilkov.android.commons.texts.SpannableBuilder;
 import com.alexvasilkov.android.commons.ui.Views;
@@ -25,10 +26,18 @@ public class ChhobiActivity extends AppCompatActivity {
     private View detailsLayout;
     private UnfoldableView unfoldableView;
 
+    //toolbar(Akash)
+    private Toolbar mToolbar;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chhobi);
+
+        //toolbar(Akash)
+        ToolBar();
+
 
         ListView listView = Views.find(this, R.id.list_view);
         listView.setAdapter(new PaintingsAdapter(this));
@@ -107,5 +116,20 @@ public class ChhobiActivity extends AppCompatActivity {
 
         unfoldableView.unfold(coverView, detailsLayout);
     }
+
+    private void ToolBar() {
+
+        mToolbar = findViewById( R.id.Chobi_toolbar );
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
+
+        //toolbar name ==>
+        mTitle.setText(R.string.ekattorercobi);
+        setSupportActionBar( mToolbar );
+
+        getSupportActionBar().setDisplayShowTitleEnabled( false );
+        getSupportActionBar().setDisplayHomeAsUpEnabled( true );
+
+    }
+
 
 }
