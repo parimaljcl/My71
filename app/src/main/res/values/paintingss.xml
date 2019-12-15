@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="paintings_titles">
+    <string-array name="paintingss_titles">
         <item>মেজর জিয়াউর রহমান (১৯ জানুয়ারি ১৯৩৬ – ৩০ মে ১৯৮১ )</item>
         <item>ক্যাপ্টেন রফিকুল ইসলাম (১৩ সেপ্টেম্বর ১৯৪৩ )</item>
         <item>মেজর খালেদ মোশাররফ (৯ নভেম্বর, ১৯৩৭ - ৭ নভেম্বর, ১৯৭৫)</item>
@@ -26,7 +26,7 @@
 
     </string-array>
 
-    <string-array name="paintings_years">
+    <string-array name="paintingss_years">
         <item>১০ এপ্রিল ১৯৭১ থেকে ২৫ জুন ১৯৭১ </item>
         <item>২৮ জুন ১৯৭১ -১৪ ফেব্রুয়ারি ১৯৭২</item>
         <item>১০ এপ্রিল, ১৯৭১ হতে ২২ সেপ্টেম্বর, ১৯৭১</item>
@@ -51,7 +51,7 @@
 
     </string-array>
 
-    <string-array name="paintings_locations">
+    <string-array name="paintingss_locations">
         <item>১: চট্টগ্রাম ও পার্বত্য চট্টগ্রাম থেকে ফেনী পর্যন্ত</item>
         <item>১: চট্টগ্রাম ও পার্বত্য চট্টগ্রাম থেকে ফেনী পর্যন্ত</item>
         <item>২: নোয়াখালী জেলা, কুমিল্লা জেলার আখাউড়া - ভৈরব রেললাইন পর্যন্ত এবং ফরিদপুর ও ঢাকার অংশবিশেষ</item>
@@ -76,7 +76,7 @@
 
     </string-array>
 
-    <array name="paintings_images">
+    <array name="paintingss_images">
         <item>@drawable/s11</item>
         <item>@drawable/s12</item>
         <item>@drawable/s21</item>

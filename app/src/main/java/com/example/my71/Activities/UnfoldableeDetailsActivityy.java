@@ -1,7 +1,5 @@
 package com.example.my71.Activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
@@ -10,6 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.alexvasilkov.android.commons.texts.SpannableBuilder;
 import com.alexvasilkov.android.commons.ui.Views;
@@ -29,6 +29,8 @@ public class UnfoldableeDetailsActivityy extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_unfoldablee_details_activityy);
+
+
         //setContentView(R.layout.activity_unfoldablee_details);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
