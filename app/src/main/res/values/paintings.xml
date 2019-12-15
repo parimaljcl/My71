@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="paintings_titles">
+        <item>Starry Night</item>
+        <item>Cafe Terrace at Night</item>
+        <item>Starry Night Over the Rhone</item>
+        <item>Sunflowers</item>
+        <item>Almond Blossoms</item>
+    </string-array>
+
+    <!--    <string-array name="paintings_years">-->
+    <!--        <item>1889</item>-->
+    <!--        <item>1888</item>-->
+    <!--        <item>1888</item>-->
+    <!--        <item>1888</item>-->
+    <!--        <item>1890</item>-->
+    <!--    </string-array>-->
+
+    <string-array name="paintings_locations">
+        <item>
+            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
+            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
+            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
+            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
+            The war ended on 16 December 1971 after West Pakistan surrendered.
+            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
+            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
+            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
+            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
+            The war ended on 16 December 1971 after West Pakistan surrendered.
+        </item>
+        <item>
+            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
+            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
+            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
+            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
+            The war ended on 16 December 1971 after West Pakistan surrendered.
+            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
+            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
+            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
+            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
+            The war ended on 16 December 1971 after West Pakistan surrendered.
+        </item>
+        <item>Musée d\'Orsay, Paris</item>
+        <item>National Gallery, London</item>
+        <item>
+            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
+            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
+            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
+            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
+            The war ended on 16 December 1971 after West Pakistan surrendered.
+            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
+            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
+            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
+            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
+            The war ended on 16 December 1971 after West Pakistan surrendered.
+        </item>
+    </string-array>
+
+    <array name="paintings_images">
+        <item>@drawable/test_img1</item>
+        <item>@drawable/test_img2</item>
+        <item>@drawable/test_img3</item>
+        <item>@drawable/test_img1</item>
+        <item>@drawable/test_img3</item>
+    </array>
+</resources>

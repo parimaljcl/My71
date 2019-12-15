@@ -35,7 +35,6 @@ public class VideoActivity extends AppCompatActivity {
 
         VideoAdapter videoAdapter = new VideoAdapter(youtubeVideos);
         recyclerView.setAdapter(videoAdapter);
-
     }
 
 }

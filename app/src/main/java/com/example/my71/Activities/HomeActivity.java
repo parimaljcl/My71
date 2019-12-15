@@ -90,7 +90,8 @@ public class HomeActivity extends AppCompatActivity {
         ekattorcovi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent=new Intent(HomeActivity.this,ChhobiActivity.class);
+                startActivity(intent);
             }
         });
         ekkatorvideo.setOnClickListener(new View.OnClickListener() {
@@ -100,7 +101,6 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
 
     }
 

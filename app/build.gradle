@@ -34,4 +34,8 @@ dependencies {
 
     implementation 'com.android.support:appcompat-v7:29.1.1'
 
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.alexvasilkov:foldable-layout:1.2.1'
+    implementation 'com.alexvasilkov:android-commons:2.0.2'
+
 }
