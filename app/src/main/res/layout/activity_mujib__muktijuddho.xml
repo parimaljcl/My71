@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".Activities.HomeActivity">
+    tools:context=".Activities.Mujib_Muktijuddho"
+    android:orientation="vertical">
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <include layout="@layout/app_bar_layout"
-            android:id="@+id/Home_toolbar"/>
+            android:id="@+id/MujibMuktijuddho_toolbar"/>
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +31,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/jhuddo"
+                android:src="@drawable/itihas_chobi"
                 android:scaleType="fitXY"/>
 
 
@@ -51,7 +52,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="vertical"
-                android:weightSum="4">
+                android:weightSum="5">
 
 
                 <androidx.cardview.widget.CardView
@@ -63,12 +64,12 @@
                     app:cardElevation="5dp">
 
                     <Button
-                        android:id="@+id/muktijuddoID"
+                        android:id="@+id/idSector"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@android:color/white"
-                        android:text="@string/muktider_itihas"
+                        android:text="@string/SectorIntroduction"
                         android:textAllCaps="false"
                         android:textColor="@android:color/holo_red_dark"
                         android:textSize="20sp"
@@ -88,12 +89,12 @@
                     app:cardElevation="5dp">
 
                     <Button
-                        android:id="@+id/mujibID"
+                        android:id="@+id/idGerila"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@android:color/white"
-                        android:text="@string/mujibmuktijuddo"
+                        android:text="@string/GerilaBahini"
                         android:textAllCaps="false"
                         android:textColor="@android:color/holo_red_dark"
                         android:textSize="20sp"
@@ -112,12 +113,12 @@
                     app:cardElevation="5dp">
 
                     <Button
-                        android:id="@+id/ekkatorercobiID"
+                        android:id="@+id/idMuktibahini"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@android:color/white"
-                        android:text="@string/ekattorercobi"
+                        android:text="@string/MuktiBahini"
                         android:textAllCaps="false"
                         android:textColor="@android:color/holo_red_dark"
                         android:textSize="20sp"
@@ -136,12 +137,12 @@
                     app:cardElevation="5dp">
 
                     <Button
-                        android:id="@+id/ekkatorervideoID"
+                        android:id="@+id/idBuddhijibi"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@android:color/white"
-                        android:text="@string/ekattorervideo"
+                        android:text="@string/Buddijibi"
                         android:textAllCaps="false"
                         android:textColor="@android:color/holo_red_dark"
                         android:textSize="20sp"
@@ -149,6 +150,34 @@
 
 
                 </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
+
+                    <Button
+                        android:id="@+id/idSevenMarch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/white"
+                        android:text="@string/Seven_March"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
 
             </LinearLayout>
 
@@ -160,4 +189,3 @@
 
 
 </LinearLayout>
-

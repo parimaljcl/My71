@@ -1,7 +1,15 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/app_bar_layout"
+            android:id="@+id/Sector_toolbar"/>
+    </LinearLayout>
+
     <ListView
+        android:layout_marginTop="?attr/actionBarSize"
         android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

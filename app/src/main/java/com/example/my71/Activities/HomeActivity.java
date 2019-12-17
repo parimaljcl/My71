@@ -41,7 +41,7 @@ public class HomeActivity extends AppCompatActivity {
 
     private void ToolBar() {
 
-        mToolbar = findViewById( R.id.About_toolbar );
+        mToolbar = findViewById( R.id.Home_toolbar );
         TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
 
         //toolbar name ==>
@@ -83,7 +83,7 @@ public class HomeActivity extends AppCompatActivity {
         mujib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(HomeActivity.this,UnfoldableeDetailsActivityy.class);
+                Intent intent=new Intent(HomeActivity.this,Mujib_Muktijuddho.class);
                 startActivity(intent);
             }
         });

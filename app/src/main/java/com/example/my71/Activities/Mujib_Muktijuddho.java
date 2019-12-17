@@ -1,0 +1,120 @@
+package com.example.my71.Activities;
+
+import android.app.ActivityOptions;
+import android.content.Intent;
+import android.os.Build;
+import android.os.Bundle;
+import android.transition.Slide;
+import android.view.Gravity;
+import android.view.View;
+import android.view.animation.DecelerateInterpolator;
+import android.widget.Button;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import com.example.my71.R;
+
+public class Mujib_Muktijuddho extends AppCompatActivity {
+
+    private Toolbar mToolbar;
+    Button Sector,Gerila,Muktibahini,Buddhijibi,SevenMarch;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_mujib__muktijuddho);
+        ToolBar();
+        Casting();
+        clickListener();
+        setAnimation();
+
+    }
+
+
+    private void ToolBar() {
+
+        mToolbar = findViewById( R.id.MujibMuktijuddho_toolbar );
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
+
+        //toolbar name ==>
+        mTitle.setText(R.string.Mujib_Muktijuddho);
+        setSupportActionBar( mToolbar );
+
+        getSupportActionBar().setDisplayShowTitleEnabled( false );
+        getSupportActionBar().setDisplayHomeAsUpEnabled( true );
+
+    }
+
+    private void Casting() {
+        Sector = findViewById(R.id.idSector);
+        Gerila = findViewById(R.id.idGerila);
+        Muktibahini = findViewById(R.id.idMuktibahini);
+        Buddhijibi =findViewById(R.id.idBuddhijibi);
+        SevenMarch = findViewById(R.id.idSevenMarch);
+    }
+
+
+    private void clickListener() {
+
+        Sector.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Mujib_Muktijuddho.this,UnfoldableeDetailsActivityy.class);
+                if(Build.VERSION.SDK_INT>20){
+                    ActivityOptions options =
+                            ActivityOptions.makeSceneTransitionAnimation(Mujib_Muktijuddho.this);
+                    startActivity(i,options.toBundle());
+                }else {
+                    startActivity(i);
+                }
+            }
+        });
+
+        Gerila.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Mujib_Muktijuddho.this,MuktiJudderItihasActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Muktibahini.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Mujib_Muktijuddho.this,MuktiJudderItihasActivity.class);
+                startActivity(intent);
+            }
+        });
+        Buddhijibi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Mujib_Muktijuddho.this,MuktiJudderItihasActivity.class);
+                startActivity(intent);
+            }
+        });
+        SevenMarch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Mujib_Muktijuddho.this,MuktiJudderItihasActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+    }
+
+    private void setAnimation() {
+        if(Build.VERSION.SDK_INT>20) {
+            Slide slide = new Slide();
+            slide.setSlideEdge(Gravity.LEFT);
+            slide.setDuration(300);
+            slide.setInterpolator(new DecelerateInterpolator());
+            getWindow().setExitTransition(slide);
+            getWindow().setEnterTransition(slide);
+        }
+    }
+
+
+}

@@ -14,15 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".Activities.HomeActivity"
-            android:theme="@style/Custombar"></activity>
-
-        Splash_Activity
-
+        <activity android:name=".Activities.Mujib_Muktijuddho"></activity>
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:theme="@style/Custombar" />
         <activity
             android:name=".Activities.ChhobiActivity"
-            android:parentActivityName=".Activities.HomeActivity"></activity>
+            android:parentActivityName=".Activities.HomeActivity" />
         <activity
             android:name=".Activities.VideoActivity"
             android:parentActivityName=".Activities.HomeActivity" />
@@ -39,11 +37,7 @@
         <activity
             android:name=".Activities.MuktiJudderItihasActivity"
             android:parentActivityName=".Activities.HomeActivity" />
-
-
-        <activity android:name=".Activities.UnfoldableeDetailsActivityy">
-
-        </activity>
+        <activity android:name=".Activities.UnfoldableeDetailsActivityy"></activity>
     </application>
 
 </manifest>

@@ -10,6 +10,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.alexvasilkov.android.commons.texts.SpannableBuilder;
 import com.alexvasilkov.android.commons.ui.Views;
@@ -24,11 +25,14 @@ public class UnfoldableeDetailsActivityy extends AppCompatActivity {
     private View listTouchInterceptor;
     private View detailsLayout;
     private UnfoldableView unfoldableView;
+    private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_unfoldablee_details_activityy);
+
+        ToolBar();
 
 
         //setContentView(R.layout.activity_unfoldablee_details);
@@ -105,4 +109,19 @@ public class UnfoldableeDetailsActivityy extends AppCompatActivity {
 
         unfoldableView.unfold(coverView, detailsLayout);
     }
+
+    private void ToolBar() {
+
+        mToolbar = findViewById( R.id.Sector_toolbar );
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
+
+        //toolbar name ==>
+        mTitle.setText(R.string.SectorTitle);
+        setSupportActionBar( mToolbar );
+
+        getSupportActionBar().setDisplayShowTitleEnabled( false );
+        getSupportActionBar().setDisplayHomeAsUpEnabled( true );
+
+    }
+
 }
