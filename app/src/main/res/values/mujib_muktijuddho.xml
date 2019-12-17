@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <string name="SectorIntroduction">সেক্টর এর পরিচিতি</string>
+    <string name="SectorIntroduction">সেক্টর কমান্ডারের পরিচিতি</string>
     <string name="GerilaBahini">গেরিলা বাহিনী</string>
     <string name="MuktiBahini">মুক্তিবাহিনী</string>
     <string name="Buddijibi">বুদ্ধিজীবী</string>
