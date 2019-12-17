@@ -14,14 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".Activities.muktibahini"></activity>
         <activity
             android:name=".Activities.HomeActivity"
             android:theme="@style/Custombar" />
-
-        <activity android:name=".Activities.Mujib_Muktijuddho"
-            android:parentActivityName=".Activities.HomeActivity"></activity>
-
+        <activity
+            android:name=".Activities.Mujib_Muktijuddho"
+            android:parentActivityName=".Activities.HomeActivity" />
         <activity
             android:name=".Activities.ChhobiActivity"
             android:parentActivityName=".Activities.HomeActivity" />
@@ -41,9 +40,9 @@
         <activity
             android:name=".Activities.MuktiJudderItihasActivity"
             android:parentActivityName=".Activities.HomeActivity" />
-
-        <activity android:name=".Activities.UnfoldableeDetailsActivityy"
-            android:parentActivityName=".Activities.Mujib_Muktijuddho"></activity>
+        <activity
+            android:name=".Activities.UnfoldableeDetailsActivityy"
+            android:parentActivityName=".Activities.Mujib_Muktijuddho" />
     </application>
 
 </manifest>

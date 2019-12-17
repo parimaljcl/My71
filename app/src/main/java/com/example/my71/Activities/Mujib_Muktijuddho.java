@@ -83,7 +83,7 @@ public class Mujib_Muktijuddho extends AppCompatActivity {
         Muktibahini.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Mujib_Muktijuddho.this,MuktiJudderItihasActivity.class);
+                Intent intent=new Intent(Mujib_Muktijuddho.this,muktibahini.class);
                 startActivity(intent);
             }
         });
