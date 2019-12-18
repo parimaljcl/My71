@@ -9,5 +9,64 @@
 
     <string name="year">দায়িত্বকাল</string>
     <string name="location">সেক্টর</string>
-    <string name="SectorTitle">সেক্টর কমান্ডার</string>
+    <string name="sector_title">সেক্টর কমান্ডার</string>
+
+    <string name="introduction">পরিচিতি</string>
+    <string name="educational_life">শিক্ষাজীবন</string>
+    <string name="political_life">রাজনীতি</string>
+    <string name="declaration_of_independence">স্বাধীনতার_ঘোষণা</string>
+    <string name="confinement">কারাবরণ</string>
+    <string name="adjuration">শপথ_গ্রহণ</string>
+    <string name="death">মৃত্যু</string>
+    <string name="biography">আত্মজীবনীমূলক_বই</string>
+
+    <string-array name="string_array_পরিচিতি">
+        <item>পরিচিতি</item>
+        <item>পরিচিতি</item>
+        <item>পরিচিতি</item>
+    </string-array>
+
+    <string-array name="string_array_শিক্ষাজীবন">
+        <item>শিক্ষাজীবন</item>
+        <item>শিক্ষাজীবন</item>
+        <item>শিক্ষাজীবন</item>
+    </string-array>
+
+    <string-array name="string_array_রাজনীতি">
+        <item>রাজনীতি</item>
+        <item>রাজনীতি</item>
+        <item>রাজনীতি</item>
+    </string-array>
+
+    <string-array name="string_array_স্বাধীনতার_ঘোষণা">
+        <item>স্বাধীনতার_ঘোষণা</item>
+        <item>স্বাধীনতার_ঘোষণা</item>
+        <item>স্বাধীনতার_ঘোষণা</item>
+    </string-array>
+
+    <string-array name="string_array_কারাবরণ">
+        <item>কারাবরণ</item>
+        <item>কারাবরণ</item>
+        <item>কারাবরণ</item>
+    </string-array>
+
+    <string-array name="string_array_শপথ_গ্রহণ">
+        <item>শপথ_গ্রহণ</item>
+        <item>শপথ_গ্রহণ</item>
+        <item>শপথ_গ্রহণ</item>
+    </string-array>
+
+    <string-array name="string_array_মৃত্যু">
+        <item>মৃত্যু</item>
+        <item>মৃত্যু</item>
+        <item>মৃত্যু</item>
+    </string-array>
+
+    <string-array name="string_array_আত্মজীবনীমূলক_বই">
+        <item>আত্মজীবনীমূলক_বই</item>
+        <item>আত্মজীবনীমূলক_বই</item>
+        <item>আত্মজীবনীমূলক_বই</item>
+    </string-array>
+
+
 </resources>
