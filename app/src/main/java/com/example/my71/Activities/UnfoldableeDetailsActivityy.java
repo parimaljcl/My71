@@ -34,7 +34,6 @@ public class UnfoldableeDetailsActivityy extends AppCompatActivity {
 
         ToolBar();
 
-
         //setContentView(R.layout.activity_unfoldablee_details);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -116,7 +115,7 @@ public class UnfoldableeDetailsActivityy extends AppCompatActivity {
         TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
 
         //toolbar name ==>
-        mTitle.setText(R.string.SectorTitle);
+        mTitle.setText(R.string.sector_title);
         setSupportActionBar( mToolbar );
 
         getSupportActionBar().setDisplayShowTitleEnabled( false );
