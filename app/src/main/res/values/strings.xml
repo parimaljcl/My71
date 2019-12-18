@@ -9,5 +9,5 @@
 
     <string name="year">দায়িত্বকাল</string>
     <string name="location">সেক্টর</string>
-    <string name="SectorTitle">সেক্টর কমান্ডার</string>
+    <string name="sector_title">সেক্টর কমান্ডার</string>
 </resources>
