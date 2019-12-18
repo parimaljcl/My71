@@ -9,6 +9,11 @@
         <item>Starry Night Over the Rhone</item>
         <item>Sunflowers</item>
         <item>Almond Blossoms</item>
+        <item>Test 6</item>
+        <item>Test 7</item>
+        <item>Test 8</item>
+        <item>Test 9</item>
+        <item>Test 10</item>
     </string-array>
     <string-array name="chobi_description">
         <item>
@@ -49,14 +54,24 @@
             The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
             The war ended on 16 December 1971 after West Pakistan surrendered.
         </item>
+        <item>Test 6</item>
+        <item>Test 7</item>
+        <item>Test 8</item>
+        <item>Test 9</item>
+        <item>Test 10</item>
     </string-array>
 
     <array name="chobi_images">
-        <item>@drawable/test_img1</item>
-        <item>@drawable/test_img2</item>
-        <item>@drawable/test_img3</item>
-        <item>@drawable/test_img1</item>
-        <item>@drawable/test_img3</item>
+        <item>@drawable/chobi_1</item>
+        <item>@drawable/chobi_2</item>
+        <item>@drawable/chobi_3</item>
+        <item>@drawable/chobi_4</item>
+        <item>@drawable/chobi_5</item>
+        <item>@drawable/chobi_6</item>
+        <item>@drawable/chobi_7</item>
+        <item>@drawable/chobi_8</item>
+        <item>@drawable/chobi_9</item>
+        <item>@drawable/chobi_10</item>
     </array>
 
 </resources>
