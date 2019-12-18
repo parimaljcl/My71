@@ -37,6 +37,10 @@ public class HomeActivity extends AppCompatActivity {
         clickListener();
         setAnimation();
 
+        //Set Title and logo
+        getSupportActionBar().setLogo(R.drawable.title_logo);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
+
     }
 
     private void ToolBar() {
