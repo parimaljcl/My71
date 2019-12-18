@@ -3,14 +3,14 @@
 
 
 <resources>
-    <string-array name="paintings_titles">
+    <string-array name="chobi_titles">
         <item>Starry Night</item>
         <item>Cafe Terrace at Night</item>
         <item>Starry Night Over the Rhone</item>
         <item>Sunflowers</item>
         <item>Almond Blossoms</item>
     </string-array>
-    <string-array name="paintings_locations">
+    <string-array name="chobi_description">
         <item>
             The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
             It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
@@ -51,7 +51,7 @@
         </item>
     </string-array>
 
-    <array name="paintings_images">
+    <array name="chobi_images">
         <item>@drawable/test_img1</item>
         <item>@drawable/test_img2</item>
         <item>@drawable/test_img3</item>

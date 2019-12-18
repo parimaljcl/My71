@@ -100,7 +100,7 @@ public class UnfoldableeDetailsActivityy extends AppCompatActivity {
                 .createStyle().setFont(Typeface.DEFAULT_BOLD).apply()
                 .append(R.string.year).append(": ")
                 .clearStyle()
-                .append(paintingg.getYear()).append("\n")
+//                .append(paintingg.getYear()).append("\n")
                 .createStyle().setFont(Typeface.DEFAULT_BOLD).apply()
                 .append(R.string.location).append(": ")
                 .clearStyle()

@@ -30,13 +30,14 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/muktibahini"/>
+        android:background="@drawable/jhuddo"
+        />
 
         <TextView
             android:id="@+id/tvMuktibahini"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="25dp"/>
+            android:text=""/>
 
 
     </LinearLayout>
