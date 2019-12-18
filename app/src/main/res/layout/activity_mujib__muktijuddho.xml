@@ -5,18 +5,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     tools:context=".MainActivity">
 
-
-    <ExpandableListView
-        android:id="@+id/expandable_list_view"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
-        android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
-        android:divider="@color/colorAccent"
-        android:dividerHeight="0.5dp"
-        android:padding="10dp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/mujib_march"
+                android:scaleType="fitXY"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/newimage1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                android:weightSum="5">
+
+                <ExpandableListView
+                    android:id="@+id/expandable_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
+                    android:indicatorLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
+                    android:divider="#ffffff"
+                    android:dividerHeight="0.5dp"
+                    android:padding="10dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
 
 </RelativeLayout>
