@@ -12,7 +12,7 @@
 
     <ListView
         android:layout_marginTop="?attr/actionBarSize"
-        android:id="@+id/list_view"
+        android:id="@+id/list_view_chobi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:cacheColorHint="@android:color/transparent"
@@ -26,19 +26,19 @@
         android:scrollingCache="false" />
 
     <View
-        android:id="@+id/touch_interceptor_view"
+        android:id="@+id/touch_interceptor_view_chobi"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <LinearLayout
-        android:id="@+id/details_layout"
+        android:id="@+id/details_layout_chobi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#333"
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/details_image"
+            android:id="@+id/details_image_chobi"
             android:layout_width="match_parent"
             android:layout_height="320dp"
             android:adjustViewBounds="true"
@@ -50,7 +50,7 @@
             android:background="#fff" />
 
         <TextView
-            android:id="@+id/details_title"
+            android:id="@+id/details_title_chobi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -70,7 +70,7 @@
             android:background="#fff" />
 
         <TextView
-            android:id="@+id/details_text"
+            android:id="@+id/details_text_chobi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/default_margin"
@@ -78,8 +78,9 @@
             android:layout_marginRight="@dimen/default_margin"
             android:layout_marginTop="8dp"
             android:lineSpacingExtra="4sp"
+            android:justificationMode="inter_word"
             android:textColor="#eee"
-            android:textSize="14sp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -88,7 +89,7 @@
         android:layout_height="wrap_content">
 
         <com.alexvasilkov.foldablelayout.UnfoldableView
-            android:id="@+id/unfoldable_view"
+            android:id="@+id/unfoldable_view_chobi"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </ScrollView>
