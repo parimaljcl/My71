@@ -1,74 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.Gerila">
-
-    <LinearLayout
+    tools:context=".Activities.Gerila"
+    android:orientation="vertical">
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="2"
+        android:layout_height="wrap_content"
         >
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@drawable/newimage"
+            android:weightSum="2"
             >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="@string/crackplaton"
-                android:paddingTop="20dp"
-                android:textStyle="bold"
-                android:textSize="40sp"
-                android:textColor="@color/red"
-                >
 
-            </TextView>
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:src="@drawable/Garila_Update_Pic"
+                android:orientation="vertical"
+                android:background="@drawable/newimage"
                 >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/crackplaton"
+                    android:paddingTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    android:textColor="@color/red"
+                    >
 
-            </ImageView>
+                </TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/garila_update_pic"
+                    >
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:text="ক্র্যাক প্লাটুন মানে হার না মানা অদম্য গেরিলা যোদ্ধাদের অসীম সাহসিকতার গল্প!\n\nঅনেক জন সাহসী তরুণ সদস্য নিয়েই গঠিত হয়েছিল ক্র্যাক প্লাটুন। তবে প্রাথমিকভাবে গঠিত দলের ১৭ জন সদস্য ঢাকায় অপারেশনের জন্য আসেন।\n\nতাদের মাঝে অন্যতম সদস্য ছিলেন শহীদ শফি ইমাম রুমী, শহীদ মাগফার আহমেদ চৌধুরী আজাদ, শহীদ বদিউল আলম বদি, শহীদ আবদুল হালিম চৌধুরী জুয়েল, শহীদ মোহাম্মদ আবু বকর, শহীদ আলতাফ মাহমুদ, আহমেদ মুনীর ভাষণ, আজম খান, নাসির উদ্দিন ইউসুফ বাচ্চু, লিনু বিল্লাহ এবং আরও অনেকেই!"
+                    >
+
+                </TextView>
+
+            </ScrollView>
+
+
+
+
 
         </LinearLayout>
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp"
-                android:paddingLeft="10dp"
-                android:textSize="20sp"
-                android:textStyle="bold"
-
-                android:text="ক্র্যাক প্লাটুন মানে হার না মানা অদম্য গেরিলা যোদ্ধাদের অসীম সাহসিকতার গল্প!\n\nঅনেক জন সাহসী তরুণ সদস্য নিয়েই গঠিত হয়েছিল ক্র্যাক প্লাটুন। তবে প্রাথমিকভাবে গঠিত দলের ১৭ জন সদস্য ঢাকায় অপারেশনের জন্য আসেন।\n\nতাদের মাঝে অন্যতম সদস্য ছিলেন শহীদ শফি ইমাম রুমী, শহীদ মাগফার আহমেদ চৌধুরী আজাদ, শহীদ বদিউল আলম বদি, শহীদ আবদুল হালিম চৌধুরী জুয়েল, শহীদ মোহাম্মদ আবু বকর, শহীদ আলতাফ মাহমুদ, আহমেদ মুনীর ভাষণ, আজম খান, নাসির উদ্দিন ইউসুফ বাচ্চু, লিনু বিল্লাহ এবং আরও অনেকেই!"
-                >
-
-            </TextView>
-
-        </ScrollView>
+    </ScrollView>
 
 
 
-
-
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
