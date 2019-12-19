@@ -14,8 +14,11 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.Purbo_itihash"></activity>
-        <activity android:name=".Activities.muktibahini" />
+        <activity android:name=".Activities.Purbo_itihash"
+            android:parentActivityName=".Activities.HomeActivity"></activity>
+
+        <activity android:name=".Activities.muktibahini"
+            android:parentActivityName=".Activities.MuktiJudderItihasActivity"/>
         <activity
             android:name=".Activities.HomeActivity"
             android:theme="@style/Custombar" />
@@ -43,7 +46,7 @@
             android:parentActivityName=".Activities.HomeActivity" />
         <activity
             android:name=".Activities.UnfoldableeDetailsActivityy"
-            android:parentActivityName=".Activities.Mujib_Muktijuddho" />
+            android:parentActivityName=".Activities.MuktiJudderItihasActivity" />
     </application>
 
 </manifest>
