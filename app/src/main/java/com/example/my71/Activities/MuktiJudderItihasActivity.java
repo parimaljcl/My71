@@ -74,7 +74,7 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MuktiJudderItihasActivity.this,MuktiJudderItihasActivity.class);
-                //intent.putExtra("IntentValue","1");
+                //intent.putExtra("IntentValue","9");
                 startActivity(intent);
             }
         });
