@@ -3,8 +3,10 @@ package com.example.my71.Activities;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.my71.R;
 
@@ -20,9 +22,19 @@ public class muktibahini extends AppCompatActivity {
 
         ToolBar();
 
+        Intent intent = getIntent();
+        String intentValue =  intent.getExtras().getString("IntentValue");
+
         TvMuktibahini = findViewById(R.id.tvMuktibahini);
 
-        TvMuktibahini.setText(R.string.muktibahibistring);
+        if (intentValue.equals("10")){
+
+            TvMuktibahini = findViewById(R.id.tvMuktibahini);
+            TvMuktibahini.setText(R.string.muktibahibistring);
+
+        }
+
+
     }
 
 

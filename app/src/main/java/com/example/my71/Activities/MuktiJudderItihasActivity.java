@@ -74,6 +74,7 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MuktiJudderItihasActivity.this,MuktiJudderItihasActivity.class);
+                //intent.putExtra("IntentValue","1");
                 startActivity(intent);
             }
         });
@@ -82,6 +83,7 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MuktiJudderItihasActivity.this,muktibahini.class);
+                intent.putExtra("IntentValue","10");
                 startActivity(intent);
             }
         });
@@ -89,6 +91,7 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MuktiJudderItihasActivity.this,MuktiJudderItihasActivity.class);
+                //intent.putExtra("IntentValue","11");
                 startActivity(intent);
             }
         });
@@ -96,6 +99,7 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MuktiJudderItihasActivity.this,MuktiJudderItihasActivity.class);
+                //intent.putExtra("IntentValue","12");
                 startActivity(intent);
             }
         });
