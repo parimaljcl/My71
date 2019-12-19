@@ -10,7 +10,7 @@
         android:id="@+id/text_view_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="25dp"
         android:textColor="#ffffff"
         android:paddingLeft="?android:attr/expandableListPreferredChildIndicatorLeft"
         />
