@@ -20,7 +20,7 @@ import com.example.my71.R;
 public class HomeActivity extends AppCompatActivity {
 
     private Button mujib,ekattorcovi,ekkatorvideo;
-    private Button muktijuddo;
+    private Button muktijuddo ,PurboItihash;
 
     //toolbar(Akash)
     private Toolbar mToolbar;
@@ -104,6 +104,14 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(HomeActivity.this,VideoActivity.class);
                 startActivity(intent);
+
+            }
+        });
+        PurboItihash.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(HomeActivity.this,Purbo_itihash.class);
+                startActivity(intent);
             }
         });
 
@@ -114,5 +122,6 @@ public class HomeActivity extends AppCompatActivity {
         mujib = findViewById(R.id.mujibID);
         ekattorcovi = findViewById(R.id.ekkatorercobiID);
         ekkatorvideo = findViewById(R.id.ekkatorervideoID);
+        PurboItihash = findViewById(R.id.Purbo_itihash_ID);
     }
 }

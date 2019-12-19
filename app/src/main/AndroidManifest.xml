@@ -14,7 +14,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.muktibahini"></activity>
+        <activity android:name=".Activities.Purbo_itihash"></activity>
+        <activity android:name=".Activities.muktibahini" />
         <activity
             android:name=".Activities.HomeActivity"
             android:theme="@style/Custombar" />
