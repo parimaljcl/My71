@@ -1,21 +1,13 @@
 package com.example.my71.Activities;
 
-import android.app.ActivityOptions;
-import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
-import android.transition.Slide;
-import android.view.Gravity;
 import android.view.View;
-import android.view.animation.DecelerateInterpolator;
-import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.example.my71.MainActivity;
 import com.example.my71.R;
 import com.example.my71.adapters.ExpandableListViewAdapter;
 
@@ -31,11 +23,14 @@ public class Mujib_Muktijuddho extends AppCompatActivity {
     private HashMap<String, List<String>> listDataChild;
 
 
+    private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mujib__muktijuddho);
+
+        ToolBar();
 
         expandableListView = findViewById(R.id.expandable_list_view);
         listDataGroup = new ArrayList<>();
@@ -157,4 +152,19 @@ public class Mujib_Muktijuddho extends AppCompatActivity {
 
         //expandableListViewAdapter.notifyDataSetChanged();
     }
+
+    private void ToolBar() {
+
+        mToolbar = findViewById( R.id.mujib_toolbar );
+        TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
+
+        //toolbar name ==>
+        mTitle.setText(R.string.Mujib_Muktijuddho);
+        setSupportActionBar( mToolbar );
+
+        getSupportActionBar().setDisplayShowTitleEnabled( false );
+        getSupportActionBar().setDisplayHomeAsUpEnabled( true );
+
+    }
+
 }

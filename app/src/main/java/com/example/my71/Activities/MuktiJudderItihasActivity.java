@@ -1,8 +1,5 @@
 package com.example.my71.Activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Build;
@@ -13,6 +10,9 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.example.my71.R;
 
@@ -37,7 +37,7 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
         TextView mTitle = (TextView) mToolbar.findViewById(R.id.toolbar_title);
 
         //toolbar name ==>
-        mTitle.setText(R.string.Mujib_Muktijuddho);
+        mTitle.setText(R.string.Muktijuddher_itihash);
         setSupportActionBar( mToolbar );
 
         getSupportActionBar().setDisplayShowTitleEnabled( false );
