@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#29752C"
+    android:background="#1E1F20"
     tools:context=".Activities.muktibahini">
 
     <LinearLayout
@@ -28,16 +28,21 @@
         android:orientation="vertical">
 
     <ImageView
+        android:layout_gravity="top"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/jhuddo"
+        android:layout_height="260dp"
+        android:src="@drawable/jhuddo"
         />
 
         <TextView
+            android:padding="3dp"
+            android:textStyle="normal"
             android:id="@+id/tvMuktibahini"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text=""/>
+            android:textSize="20sp"
+            android:text="text"
+            android:textColor="@android:color/white"/>
 
 
     </LinearLayout>

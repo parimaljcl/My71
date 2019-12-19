@@ -22,7 +22,7 @@
         android:padding="12dp"
         android:scrollbarStyle="outsideOverlay"
         android:scrollingCache="false"
-        android:background="#29752C"/>
+        android:background="#324933"/>
 
     <View
         android:id="@+id/touch_interceptor_view"
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        android:background="#29752C"
+        android:background="#1E1F20"
         android:orientation="vertical">
 
         <ImageView

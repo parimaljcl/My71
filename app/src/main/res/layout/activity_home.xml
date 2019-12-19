@@ -51,7 +51,33 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="vertical"
-                android:weightSum="4">
+                android:weightSum="5">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
+
+                    <Button
+                        android:id="@+id/Purbo_itihash_ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/white"
+                        android:text="@string/Purbo_itihash"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
 
 
                 <androidx.cardview.widget.CardView
