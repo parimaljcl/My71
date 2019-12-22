@@ -25,6 +25,10 @@
     <string name="biography">আত্মজীবনীমূলক_বই</string>
     <string name="Purbo_itihash">মুক্তিযুদ্ধের পূর্ব ইতিহাস</string>
     <string name="Muktijuddher_itihash">মুক্তিযুদ্ধের ইতিহাস</string>
+    <string name="fiftyTwo">১৯৫২</string>
+    <string name="sixtySix">১৯৬৬</string>
+    <string name="sixtyNine">১৯৬৯</string>
+    <string name="Boishommo">বৈষম্য</string>
 
     <string-array name="string_array_পরিচিতি">
         <item>

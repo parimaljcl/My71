@@ -73,7 +73,7 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
         Gerila.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MuktiJudderItihasActivity.this,muktibahini.class);
+                Intent intent=new Intent(MuktiJudderItihasActivity.this,Gerila.class);
                 //intent.putExtra("IntentValue","9");
                 startActivity(intent);
             }
