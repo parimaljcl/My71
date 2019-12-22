@@ -6,7 +6,7 @@
     android:padding="4dp">
 
     <ImageView
-        android:id="@+id/list_item_image"
+        android:id="@+id/list_item_image_chobi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#dde"
@@ -19,7 +19,7 @@
         android:background="@drawable/image_text_shadow" />
 
     <TextView
-        android:id="@+id/list_item_title"
+        android:id="@+id/list_item_title_chobi"
         android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

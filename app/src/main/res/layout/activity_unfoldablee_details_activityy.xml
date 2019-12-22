@@ -22,7 +22,7 @@
         android:padding="12dp"
         android:scrollbarStyle="outsideOverlay"
         android:scrollingCache="false"
-        android:background="#29752C"/>
+        android:background="#324933"/>
 
     <View
         android:id="@+id/touch_interceptor_view"
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        android:background="#29752C"
+        android:background="#1E1F20"
         android:orientation="vertical">
 
         <ImageView
@@ -58,7 +58,8 @@
             android:layout_marginRight="@dimen/default_margin"
             android:layout_marginTop="12dp"
             android:textColor="#fff"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            />
 
         <View
             android:layout_width="match_parent"
@@ -70,20 +71,20 @@
         <TextView
             android:id="@+id/details_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginBottom="@dimen/default_margin"
             android:layout_marginLeft="@dimen/default_margin"
             android:layout_marginRight="@dimen/default_margin"
             android:layout_marginTop="8dp"
             android:lineSpacingExtra="4sp"
             android:textColor="#eee"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
 
     </LinearLayout>
 
     <com.alexvasilkov.foldablelayout.UnfoldableView
         android:id="@+id/unfoldable_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
 
 </merge>

@@ -4,74 +4,57 @@
 
 <resources>
     <string-array name="chobi_titles">
-        <item>Starry Night</item>
-        <item>Cafe Terrace at Night</item>
-        <item>Starry Night Over the Rhone</item>
-        <item>Sunflowers</item>
-        <item>Almond Blossoms</item>
-        <item>Test 6</item>
-        <item>Test 7</item>
-        <item>Test 8</item>
-        <item>Test 9</item>
-        <item>Test 10</item>
+        <item>৭ মার্চ রেসকোর্স ময়দানে বঙ্গবন্ধুর ঐতিহাসিক ভাষণ</item>
+        <item>১৯৭১ সালের অস্থায়ী বাংলাদেশ সরকারের মন্ত্রী পরিষদের সদস্যবৃন্দ</item>
+        <item>অপারেশন সার্চলাইট</item>
+        <item>বুদ্ধিজীবী হত্যাকাণ্ড</item>
+        <item>পাকিস্তানি বাহিনীর আত্মসমর্পণ ও বিজয়</item>
+
     </string-array>
     <string-array name="chobi_description">
         <item>
-            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
-            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
-            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
-            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
-            The war ended on 16 December 1971 after West Pakistan surrendered.
-            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
-            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
-            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
-            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
-            The war ended on 16 December 1971 after West Pakistan surrendered.
+           সাতই মার্চের ভাষণ ১৯৭১ খ্রিষ্টাব্দের ৭ই মার্চ ঢাকার রমনায় অবস্থিত রেসকোর্স ময়দানে (বর্তমান সোহরাওয়ার্দী উদ্যান) অনুষ্ঠিত জনসভায় শেখ মুজিবুর রহমান কর্তৃক প্রদত্ত এক ঐতিহাসিক ভাষণ।\n\nতিনি উক্ত ভাষণ বিকেল ২টা ৪৫ মিনিটে শুরু করে বিকেল ৩টা ৩ মিনিটে শেষ করেন। উক্ত ভাষণ ১৮ মিনিট স্থায়ী হয়। এই ভাষণে তিনি তৎকালীন পূর্ব পাকিস্তানের (বর্তমানে বাংলাদেশ) বাঙালিদেরকে স্বাধীনতা সংগ্রামের জন্য প্রস্তুত হওয়ার আহ্বান জানান। এই ভাষণের একটি লিখিত ভাষ্য অচিরেই বিতরণ করা হয়েছিল।এটি তাজউদ্দীন আহমদ কর্তৃক কিছু পরিমার্জিত হয়েছিল।\n\n পরিমার্জনার মূল উদ্দেশ্য ছিল সামরিক আইন প্রত্যাহার এবং নির্বাচিত জনপ্রতিনিধিদের কাছে ক্ষমতা হস্তান্তরের দাবীটির ওপর গুরুত্ব আরোপ করা।১২টি ভাষায় ভাষণটি অনুবাদ করা হয়৷ নিউজউইক ম্যাগাজিন জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমানকে রাজনীতির কবি হিসেবে স্বীকৃতি দেয়। ২০১৭ সালের ৩০ শে অক্টোবর ইউনেস্কো এই ভাষণকে ঐতিহাসিক দলিল হিসেবে স্বীকৃতি দেয়।\n\n১৯৭০ খ্রিষ্টাব্দে আওয়ামী লীগ পাকিস্তানের জাতীয় পরিষদ নির্বাচনে নিরঙ্কুশ সংখ্যাগরিষ্ঠতা অর্জন করে। কিন্তু পাকিস্তানের সামরিক শাসকগোষ্ঠী এই দলের কাছে ক্ষমতা হস্তান্তরে বিলম্ব করতে শুরু করে। প্রকৃতপক্ষে তাদের উদ্দেশ্য ছিল, যে-কোনভাবে ক্ষমতা পশ্চিম পাকিস্তানী রাজনীতিবিদদের হাতে কুক্ষিগত করে রাখা। এই পরিস্থিতিতে পাকিস্তানের প্রেসিডেন্ট জেনারেল ইয়াহিয়া খান ৩রা মার্চ জাতীয় পরিষদ অধিবেশন আহ্বান করেন। কিন্তু অপ্রত্যাশিতভাবে ১লা মার্চ এই অধিবেশন অনির্দিষ্টকালের জন্য মুলতবি ঘোষণা করেন। \n\nএই সংবাদে পূর্ব পাকিস্তানের জনগণ বিক্ষোভে ফেটে পড়ে। আওয়ামী লীগ প্রধান শেখ মুজিবুর রহমানের নেতৃত্বে ২রা মার্চ ঢাকায় এবং ৩রা মার্চ সারাদেশে একযোগে হরতাল পালিত হয়। তিনি ৩রা মার্চ পল্টন ময়দানে অনুষ্ঠিত এক বিশাল জনসভায় সমগ্র পূর্ব বাংলায় সর্বাত্মক অসহযোগ আন্দোলনের কর্মসূচি ঘোষণা করেন। এই পটভূমিতেই ৭ই মার্চ রেসকোর্স ময়দানের জনসভায় বিপুল সংখ্যক লোক একত্রিত হয়; পুরো ময়দান পরিণত হয় এক জনসমুদ্রে। এই জনতা এবং সার্বিকভাবে সমগ্র জাতির উদ্দেশ্যে শেখ মুজিবুর রহমান তার ঐতিহাসিক ভাষণটি প্রদান করেন।
         </item>
         <item>
-            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
-            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
-            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
-            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
-            The war ended on 16 December 1971 after West Pakistan surrendered.
-            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
-            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
-            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
-            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
-            The war ended on 16 December 1971 after West Pakistan surrendered.
+            ১৯৭১ সালের ১৭ এপ্রিল মুক্তিযুদ্ধ পরিচালনার জন্য অস্থায়ী বাংলাদেশ সরকারের আনুষ্ঠানিক প্রতিষ্ঠা হয় কুষ্টিয়া জেলার মেহেরপুর মহকুমা (বর্তমানে জেলা) বৈদ্যনাথতলার অন্তর্গত ভবেরপাড়া (বর্তমান মুজিবনগর) গ্রামে। শেখ মুজিবুর রহমান এর অনুপস্থিতিতে তাকে রাষ্ট্রপতি করে সরকার গঠন করা হয়। অস্থায়ী রাষ্ট্রপতির দায়িত্ব নেন সৈয়দ নজরুল ইসলাম এবং প্রধানমন্ত্রীর দায়িত্ব অর্পিত হয় তাজউদ্দিন আহমদের উপর।[৩৪] বাংলাদেশের প্রথম সরকার দেশি-বিদেশি সাংবাদিকের সামনে শপথ গ্রহণ করে আনুষ্ঠানিকভাবে দায়িত্ব পালন শুরু করে। এই শপথ গ্রহণ অনুষ্ঠানে স্বাধীনতার ঘোষণাপত্র পাঠের মাধ্যমে ২৬ মার্চ হতে বাংলাদেশকে আনুষ্ঠানিকভাবে স্বাধীন সার্বভৌম রাষ্ট্র হিসাবে ঘোষণা করা হয়।\n\nআগস্টের পরপরই বিপুল সংখ্যক মুক্তিযোদ্ধা গেরিলা পদ্ধতিতে বাংলাদেশের বিভিন্ন স্থানে পাকিস্তানি সামরিক বাহিনী ও তাদের সহায়তাকারীদের ওপর আক্রমণ চালাতে থাকে। পাকিস্তানি সামরিক ঘাঁটি থেকে শুরু করে সামরিক স্থাপনা, যোগাযোগ বিচ্ছিন্ন করার লক্ষ্যে রাস্তাঘাট, সেতু, কালভার্ট ইত্যাদি মুক্তিযোদ্ধাদের লক্ষ্যবস্তুতে পরিণত হয়। গেরিলা হামলায় স্বল্পপ্রশিক্ষিত গেরিলা যোদ্ধারা পাকিস্তানি সামরিক বাহিনীকে নাজেহাল করে তোলে। রাজধানী ঢাকাতেও ক্র্যাক প্লাটুন বেশ কয়েকটি দুঃসাহসী অভিযান চালায়। ১৯৭১ সালের ১৬ আগস্ট মুক্তিবাহিনীর নৌ-কমান্ডোরা অপারেশন জ্যাকপটের মাধ্যমে চট্টগ্রাম বন্দরে নোঙ্গর করে থাকা পাকিস্তানি যুদ্ধজাহাজগুলো মাইন দিয়ে ধ্বংস করে দেয়। ধীরে ধীরে বাংলাদেশের বিভিন্ন অঞ্চল শত্রুমুক্ত হতে শুরু করে।\n\nঢাকায় গণহত্যা চালানোর পর পাকিস্তানি বাহিনী ১০ এপ্রিলের মধ্যে সারা বাংলাদেশ নিজেদের আয়ত্তে আনার পরিকল্পনা করে। কিন্তু সামরিক বাহিনীর বাঙালি সদস্যরা এবং ছাত্র ও সাধারণ জনতা তাদের বিরুদ্ধে তীব্র প্রতিরোধ গড়ে তোলে। চট্টগ্রামে বাঙালি সেনাবাহিনীর সদস্য ও ইপিআর এর সদস্যরা বিদ্রোহ করে শহরের বড় অংশ নিয়ন্ত্রণে নিয়ে নেয়। চট্টগ্রাম শহরের নিয়ন্ত্রণ পেতে পাকিস্তানি বাহিনীকে যুদ্ধজাহাজ থেকে গোলাবর্ষণ করতে হয় এবং বিমান আক্রমণ চালাতে হয়।[৩৫] কুষ্টিয়া, পাবনা, বগুড়া, দিনাজপুর ইত্যাদি জেলাতেও বাঙালি সেনারা বিদ্রোহ করে নিয়ন্ত্রণ গ্রহণ করে। পরবর্তীতে পাকিস্তানিরা বিপুলসংখ্যক সৈন্য ও অস্ত্রশস্ত্রের বলে মে মাসের শেষ নাগাদ এসব মুক্তাঞ্চল দখল করে নেয়।
         </item>
-        <item>Musée d\'Orsay, Paris</item>
-        <item>National Gallery, London</item>
         <item>
-            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
-            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
-            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
-            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
-            The war ended on 16 December 1971 after West Pakistan surrendered.
-            The Bangladesh Liberation War (Bengali: Muktijuddho), also known as the Bangladesh War of Independence, or simply the Liberation War in Bangladesh, was a revolution and armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in what was then East Pakistan during the 1971 Bangladesh genocide.\n\n
-            It resulted in the independence of the People\'s Republic of Bangladesh.\n\n
-            The war began after the Pakistani military junta based in West Pakistan launched Operation Searchlight against the people of East Pakistan on the night of 25 March 1971. It pursued the systematic elimination of nationalist Bengali civilians, students, intelligentsia, religious minorities and armed personnel.\n\n
-            The junta annulled the results of the 1970 elections and arrested Prime minister-designate Sheikh Mujibur Rahman.\n\n
-            The war ended on 16 December 1971 after West Pakistan surrendered.
+            এটি হচ্ছে ২৫ মার্চ হতে ১০ এপ্রিল সময়ে অর্থাৎ অপারেশন যে সময়ের শেষ হয় সে সময়ে পাকিস্তানী সশস্ত্র বাহিনী কোন কোন স্থানে নিয়োজিত ছিল এবং সামরিক আক্রমণের ফলাফলের পূর্ন বিবরন। যেসব স্থানকে অপারেশন সার্চলাইটে প্রাধান্য দেয়া হয়েছে এখানে শুধু সেগুলোর বিবরন আছে, সারা পুর্ব পাকিস্তানে বাঙালিদের প্রতিরোধের কথা নেই। কোন কোন স্থানে ২৫ মার্চেই পাকিস্তানী আক্রমণ ও গণহত্যা শুরু হবার সাথে সাথেই বাঙালি বাহিনীর সাথে সাথে পাকিস্তানীদের সংঘর্ষ বেধে যায়। অন্যান্য স্থানে ৩০ মার্চের আগে কোন সংঘর্ষ দেখা দেয় নি।\n\n
+
+ঢাকা\n
+অপারেশন সার্চলাইটঃ ২৫ মার্চ ১৯৭১ এ ঢাকায় পাকিস্তানী বাহিনীর প্রধান প্রধান লখ্যবস্তু। মানচিত্রটি সঠিক মাপে নেই।\nমেজর জেনারেল ফরমানের নেতৃত্বে ঢাকায় পাকিস্তানী বাহিনীর নিম্ন লিখিত লক্ষ্য ছিলঃ\n
+
+1. রাত ১১টায় কারফিউ জারি করা এবং টেলিফোন/টেলিগ্রাফ/রেডিও স্টেশন এবং সকল প্রকার পত্রিকা প্রকাশনা বন্ধ করে দেয়া।\n
+2. ঢাকা শহরের সড়ক, রেল ও নৌ-পথের দখল নিয়ে সারা শহর বিচ্ছিন্ন করে ফেলা এবং নদীতে টহল জারি করা।\n
+3. অপারেশন চলাকালীণ সময়ের মধ্যে শেখ মুজিব ও আওয়ামী লীগের আরো ১৫ জন বড় নেতাদের গ্রেফতার করা।\n
+4. ধানমন্ডি এলাকায় এবং হিন্দু এলাকাগুলোতে বাড়ি বাড়ি গিয়ে সার্চ (খোঁজ) করা।\n
+5. ঢাকা বিশ্ববিদ্যালয়, ইপিআর সদর দফতর, এবং রাজারবাগ পুলিশ লাইন ধ্বংস ও পরাভূত করা এবং ২য় ও ১০ম ইবিআর কে নীরস্ত্র করা।\n
+6. গাজিপুর অস্ত্র কারখানা এবং রাজেন্দ্রপুরের অস্ত্রগুদাম দখল ও নিরাপত্তা নিশ্চিত করা।\n
+পাকিস্তানী সেনারা : পূর্বাঞ্চলীয় কমান্ড সদর দফতরের সাথে যুক্ত হয়ে ১৪তম ডিভিশন এবং ৫৭তম ব্রিগেডও ঢাকা সেনানিবাসে অবস্থান করছিল। যেসকল নিয়মিত সেনা ইউনিটগুলো উপস্থিত ছিল সেগুলো হলোঃ ৫৭তম ব্রিগেড যার সাথে আরো ছিল; ১৮ এবং ৩২তম পাঞ্জাব (সি.ও লে.কর্নেল তাজ) রেজিমেন্ট, ১৩তম সীমান্তবর্তী রেজিমেন্ট, ২২তম বালুচ রেজিমেন্ট, ৬০৪তম ইন্টেলিজেন্স (গোয়েন্দা/গুপ্ত) ইউনিট এবং ৩১তম ভূ-গোলন্দাজ বাহিনী (সি.ও লে.কর্নেল জাহিদ হাসান)। ১৪তম ডিভিশন সদর দফতরের সাথে নিম্নলিখিত ইউনিট গুলো যুক্ত ছিলঃ ৪৩তম হালকা বিমানবিধ্বংসী রেজিমেন্ট (সি.ও লে.কর্নেল সাফফাত আলি-পাকিস্তানী), ৩য় কমান্ডো ব্যটেলিয়নের উপকরন (সি.ও লে.কর্নেল জেড.এ খান-পাকিস্তানী), ১৯তম সংকেত প্রদানকারী রেজিমেন্ট (সি.ও লে.কর্নেল ইফতেখার হুসাইন- পাকিস্তানী), এবং ১৪৯তম পদাতিক বাহিনী। PAF (পাকিস্তানী বিমান বাহিনী) এর সব কিছু তেজগাঁও বিমানবন্দরে জড়ো করা হয়। সাথে ২৯তম অশ্বারোহী রেজিমেন্ট থেকে এক স্কোয়াড্রনের কমপক্ষে ১৪টি M24 শ্যাফি ট্যাঙ্ক ঢাকায় জড়ো করা হয়। এইসকল ইউনিটের সংযুক্তি হিসাবে ৫৭তম ব্রিগেড, ১৪তম ডিভিশন এবং পূর্বাঞ্চলীয় কমান্ড সদর দফতর থেকে অন্যান্য সাহায্যকারী (ইঞ্জিনিয়ারিং, সরবরাহকারী, এবং চিকিৎসা ইউনিট) দল ঢাকায় অবস্থান নেয়।
         </item>
-        <item>Test 6</item>
-        <item>Test 7</item>
-        <item>Test 8</item>
-        <item>Test 9</item>
-        <item>Test 10</item>
+        <item>
+            মুক্তিযুদ্ধ চলাকালীন সময়ে বাংলাদেশে ইতিহাসের নৃশংসতম গণহত্যা চালানো হয়। ২৫শে মার্চের কালোরাতে পাকিস্তানি সামরিক বাহিনীর শুরু করা অপারেশন সার্চলাইট নামক ধ্বংসযজ্ঞ বাংলাদেশের স্বাধীনতা লাভের পূর্ব পর্যন্ত চলে এবং এ নয় মাসে বাংলাদেশি কিছু ঘাতক দোসরদের সহায়তায় বিপুল সংখ্যক বাঙালিকে হত্যা করা হয়।\n\nমুক্তিযুদ্ধ চলাকালীন সময়ে কত মানুষ প্রাণ হারিয়েছে তা নিয়ে গণমাধ্যমে বিভিন্ন রকম পরিসংখ্যান প্রচলিত রয়েছে। বিশ্বব্যাপী বিভিন্ন বিশ্বকোষ ও বইতে এই সংখ্যাটিকে ২,০০,০০০ থেকে শুরু করে ৩০,০০,০০০ পর্যন্ত উল্লেখ করা হয়েছে। বাংলাদেশে মুক্তিযুদ্ধে শহীদের সংখ্যাটিকে ৩০,০০,০০০ হিসেবে অনুমান করা হয়। যুদ্ধের সময় প্রায় এক কোটি শরণার্থী ভারতে আশ্রয় গ্রহণ করে, যারা সে সময় দেশত্যাগ না করলে হয়তো গণহত্যার শিকার হত। স্বাধীনতা লাভের প্রাক্কালে ১৪ ডিসেম্বর রাজাকার, আল-বদর ও আল-শামস বাহিনী। পাকিস্তানি সেনাবাহিনীর নির্দেশে বাংলাদেশের প্রায় ৩০০ জন বুদ্ধিজীবীকে - যাঁদের মধ্যে ছিলেন শিক্ষক, ডাক্তার, প্রকৌশলী, শিল্পী, কবি, সাহিত্যিক, বিজ্ঞানী - ধরে নিয়ে যায় এবং নির্মমভাবে হত্যা করে। পাকিস্তানপন্থী বাঙালি বিশ্বাসঘাতক রাজাকারের দল ডিসেম্বরের শুরুতেই যুদ্ধের পরিণতি বুঝতে পেরে স্বাধীনতার ঠিক আগে আগে সুপরিকল্পিতভাবে এ হত্যাকাণ্ড ঘটায়। বুদ্ধিজীবীদের হত্যা করে তারা সদ্য স্বাধীন বাংলাদেশের অগ্রগতির পথ বন্ধ করে দেয়াই ছিল তাদের মূল উদ্দেশ্য। ১৪ ডিসেম্বরে নিহত বুদ্ধিজীবীদের লাশ বিভিন্ন গণকবরে ফেলে আসা হয়, যার মধ্যে রায়েরবাজার বধ্যভূমি অন্যতম (বর্তমানে এ বধ্যভূমিতে বুদ্ধিজীবী স্মৃতিসৌধ গড়ে তোলা হয়েছে)। ঢাকা এবং বাংলাদেশের বিভিন্ন জায়গায় পরবর্তী সময়ে বেশ কিছু গণকবর ও বধ্যভূমির সন্ধান পাওয়া গেছে এবং মাঝে মাঝেই এমন নতুন বধ্যভূমি আবিষ্কৃত হচ্ছে (উদাহরণস্বরূপ ঢাকায় অবাঙালি অধ্যুষিত এলাকায় ১৯৯৯ সালের আগস্ট মাসে একটি কূপের ভেতর গণকবরের সন্ধান পাওয়া যায়)। ঢাকায় অবস্থিত আমেরিকান কনসুলেট থেকে মার্কিন যুক্তরাষ্ট্রের স্টেটস ডিপার্টমেন্টে পাঠানো টেলিগ্রামেও যুদ্ধ শুরুর রাতে ঢাকা বিশ্ববিদ্যালয়ের ছাত্র ও সাধারণ জনতার ওপর চালানো নৃশংস হত্যাকাণ্ডের উল্লেখ রয়েছে।\n\nস্বাধীনতা যুদ্ধকালীন সময়ে বহুসংখ্যক বাঙালি নারী সম্ভ্রম হারায়; যার সঠিক সংখ্যা জানা যায়নি। বাংলাদেশে ধারণা করা হয় প্রায় ২,০০,০০০ নারী মুক্তিযুদ্ধের সময় ধর্ষিত হয় এবং তাদের গর্ভে অনেক যুদ্ধশিশু জন্ম নেয়। ঢাকা সেনানিবাসের ভেতরে পাকিস্তানি সৈন্যরা বহুসংখ্যক মেয়েকে ধরে নিয়ে যায়, যাদের অধিকাংশই ছিল ঢাকা বিশ্ববিদ্যালয়ের শিক্ষার্থী ও সাধারণ পরিবারের মেয়ে।
+        </item>
+        <item>
+           ডিসেম্বরের শুরুতে বাংলাদেশের স্বাধীনতা যুদ্ধে ভারত প্রত্যক্ষভাবে জড়িয়ে পড়ে। মুক্তিবাহিনী ও ভারতীয় সামরিক বাহিনীর সম্মিলিত আক্রমণের মুখে ইতোমধ্যে পর্যুদস্ত ও হতোদ্যম পাকিস্তানি সামরিক বাহিনী আত্মসমর্পণের সিদ্ধান্ত গ্রহণ করে। ১৬ ডিসেম্বর ঢাকার রেসকোর্স ময়দানে পাকিস্তানি সামরিক কর্মকর্তারা প্রায় ৯৩,০০০ হাজার সৈন্যসহ আনুষ্ঠানিকভাবে আত্মসমর্পণ করেন। এরই মাধ্যমে নয় মাস ব্যাপী রক্তক্ষয়ী মুক্তিযুদ্ধের অবসান ঘটে; প্রতিষ্ঠিত হয় বাঙালি জাতির প্রথম স্বাধীন রাষ্ট্র বাংলাদেশ।\n\n
+৯ ডিসেম্বর এক বার্তায় গভর্নর মালিক পাকিস্তানের রাষ্ট্রপতিকে জানান, ‘সামরিক পরিস্থিতি নাজুক হয়ে পড়েছে। পশ্চিমে শত্রু ফরিদপুরের কাছে চলে এসেছে এবং পূর্বে লাকসাম ও কুমিল্লায় আমাদের বাহিনীকে পাশ কাটিয়ে মেঘনা নদীর ধারে পৌঁছেছে। বাইরের সাহায্য যদি না আসে, তবে শত্রু যেকোনো দিন ঢাকার উপকণ্ঠে পৌঁছে যাবে। পুনরায় আপনাকে বলছি, আশু যুদ্ধবিরতি ও রাজনৈতিক সমাধানের কথা বিবেচনা করুন।’ এরপর ১০ ডিসেম্বর গভর্নরের সামরিক উপদেষ্টা মেজর জেনারেল রাও ফরমান আলী ও মুখ্য সচিব পশ্চিম পাকিস্তানি কর্মকর্তা মুজাফফর হোসেন ক্যান্টনমেন্টে জেনারেল নিয়াজির সঙ্গে বিস্তারিত আলোচনা করেন এবং ঢাকায় জাতিসংঘের প্রতিনিধির কাছে ‘আত্মসমর্পণের’ আবেদন হস্তান্তর করেন।[৪২] এতে অবশ্য কৌশলে আত্মসমর্পণ শব্দটি বাদ দিয়ে অস্ত্রসংবরণ কথাটি ব্যবহার করা হয়। এই আবেদনে আরো লেখা ছিল,\n\n
+‘যেহেতু সংকটের উদ্ভব হয়েছে রাজনৈতিক কারণে, তাই রাজনৈতিক সমাধান দ্বারা এর নিরসন হতে হবে। আমি তাই পাকিস্তানের রাষ্ট্রপতির দ্বারা অধিকারপ্রাপ্ত হয়ে পূর্ব পাকিস্তানের নির্বাচিত জনপ্রতিনিধিদের ঢাকায় সরকার গঠনের জন্য আহ্বান জানাই। আমি শান্তিপূর্ণভাবে ক্ষমতা হস্তান্তরের ব্যবস্থা নেয়ার জন্য জাতিসংঘকে আহ্বান জানাই।’\n\n
+এই আবেদন ঢাকায় জাতিসংঘের প্রতিনিধি পল মার্ক হেনরির হাতে দেওয়া হয়। পাকিস্তানি মহলে বার্তাটি মালিক-ফরমান আলী বার্তা হিসেবে পরিচিতি পায়। পরদিন তা আবার প্রত্যাহার করে নেওয়া হয়।\n\n
+মুক্তিযোদ্ধা ও ভারতীয় সৈন্যরা ঢাকা ঘেরাও করে পাকিস্তানি সেনাবাহিনীকে আত্মসমর্পণ করার জন্যে আহবান করে। মিত্রবাহিনী কর্তৃক গভর্নর হাউজে (বর্তমান বঙ্গভবন) বোমাবর্ষণের কারণে গভর্নর মালিকের নেতৃত্বাধীন পূর্ব পাকিস্তানের পুতুল সরকারও ইতোমধ্যে পদত্যাগ করে হোটেল ইন্টারকন্টিনেন্টালে (বর্তমান হোটেল শেরাটন) আশ্রয় নেয়। সময় থাকতে শান্তিপূর্ণভাবে আত্মসমর্পণের আহবান জানিয়ে আকাশ থেকে অনবরত প্রচারপত্র ফেলা হতে থাকে।\n\n
+অবশেষে নিয়াজির অনুরোধে ১৫ ডিসেম্বর বিকেল সাড়ে পাঁচটা থেকে পরদিন সকাল সাড়ে নয়টা পর্যন্ত ভারতীয় বিমান আক্রমণ স্থগিত রাখা হয়। পরদিন সকালে বিমান আক্রমণবিরতির সময়সীমা শেষ হওয়ার কিছু আগে মেজর জেনারেল রাও ফরমান আলী জাতিসংঘের প্রতিনিধি জন কেলির মাধ্যমে ভারতীয় সামরিক কর্তৃপক্ষকে অস্থায়ী যুদ্ধবিরতির সময়সীমা আরও ছয় ঘণ্টার জন্য বাড়িয়ে দিয়ে ভারতের একজন স্টাফ অফিসার পাঠানোর অনুরোধ জানান যাতে অস্ত্রসমর্পণের ব্যবস্থাদি স্থির করা সম্ভব হয়। এই বার্তা পাঠানোর কিছু আগে অবশ্য ভারতীয় মেজর জেনারেল নাগরার বাহিনী কাদের সিদ্দিকীর মিলিশিয়া বাহিনীকে সঙ্গে করে মিরপুর সেতুতে হাজির হন এবং সেখান থেকে নাগরা নিয়াজিকে আত্মসমর্পণের আহ্বান জানান। নিয়াজির আত্মসমর্পণের ইচ্ছা ব্যক্ত হওয়ার পর সকাল ১০:৪০ মিনিটে মুক্তিযোদ্ধাদের সঙ্গে নিয়ে নাগরার বাহিনী ঢাকা শহরে প্রবেশ করে। পাকিস্তানিদের আত্মসমর্পণের দলিল এবং সংশ্লিষ্ট অনুষ্ঠানের ব্যবস্থাদি চূড়ান্ত করার জন্য ভারতীয় ইস্টার্ন কমান্ডের চীফ অব স্টাফ মেজর জেনারেল জ্যাকব মধ্যাহ্নে ঢাকায় এসে পৌঁছান। বিকেল চারটার আগেই বাংলাদেশ নিয়মিত বাহিনীর দুটি ইউনিটসহ মোট চার ব্যাটালিয়ন সৈন্য ঢাকায় প্রবেশ করে। সঙ্গে কয়েক সহস্র মুক্তিযোদ্ধা। ঢাকার জনবিরল পথঘাট ক্রমে জনাকীর্ণ হয়ে উঠতে শুরু করে ‘জয় বাংলা’ মুখরিত মানুষের ভিড়ে। বিকেল চারটায় ভারতের ইস্টার্ন কমান্ডের প্রধান ও ভারত-বাংলাদেশ যুগ্ম-কমান্ডের অধিনায়ক লেফটেন্যান্ট জেনারেল জগজিৎ সিং অরোরা, বাংলাদেশের ডেপুটি চীফ অব স্টাফ গ্রুপ ক্যাপ্টেন আব্দুল করিম খোন্দকার এবং ভারতের অপরাপর সশস্ত্রবাহিনীর প্রতিনিধিগণ ঢাকায় অবতরণ করেন। কিছুক্ষণ পরেই ইন্দিরা গান্ধী পূর্ব ও পশ্চিম উভয় রণাঙ্গনে ভারতের পক্ষ থেকে এককভাবে যুদ্ধবিরতি ঘোষণা করেন।\n\n
+১৬ ডিসেম্বর বিকেলে রেসকোর্স ময়দানে (বর্তমান সোহরাওয়ার্দী উদ্যান) বাংলাদেশে অবস্থিত পাকিস্তানি সামরিক বাহিনীর অধিনায়ক লেফটেন্যান্ট জেনারেল নিয়াজি হাজার হাজার উৎফুল্ল জনতার সামনে আত্মসমর্পণের দলিলে স্বাক্ষর করেন। প্রায় ৯৩,০০০ পাকিস্তানি সৈন্য আত্মসমর্পণ করে, যা ছিল দ্বিতীয় বিশ্বযুদ্ধের পর সর্ববৃহৎ আত্মসমর্পণ অনুষ্ঠান। বাংলাদেশের মানুষের বহু আকাঙ্ক্ষিত বিজয় ধরা দেয় যুদ্ধ শুরুর নয় মাস পর। ১৬ ডিসেম্বর পাকিস্তান সেনাবাহিনী আত্মসমর্পন করলেও সারা দেশে সকল পাকিস্তানি সৈন্যকে আত্মসমর্পণ করাতে ২২ ডিসেম্বর পর্যন্ত সময় লেগে যায়। পাকিস্তানি বাহিনীর আত্মসমর্পণের দিনই মার্কিন যুক্তরাষ্ট্রের সপ্তম নৌবহর বঙ্গোপসাগরের দক্ষিণতম প্রান্তে প্রবেশ করে। কিন্তু বাংলাদেশ তখন পাকিস্তানের দখল থেকে সম্পূর্ণভাবে মুক্ত।
+        </item>
+
     </string-array>
 
     <array name="chobi_images">
-        <item>@drawable/chobi_1</item>
-        <item>@drawable/chobi_2</item>
-        <item>@drawable/chobi_3</item>
-        <item>@drawable/chobi_4</item>
-        <item>@drawable/chobi_5</item>
-        <item>@drawable/chobi_6</item>
-        <item>@drawable/chobi_7</item>
-        <item>@drawable/chobi_8</item>
-        <item>@drawable/chobi_9</item>
-        <item>@drawable/chobi_10</item>
+        <item>@drawable/chobi_1_speech</item>
+        <item>@drawable/chobi_2_provisional_government_of_bd_1971</item>
+        <item>@drawable/chobi_3_operatrion_searchlight</item>
+        <item>@drawable/chobi_4_death_body</item>
+
+        <item>@drawable/chobi_5_surrender</item>
+
     </array>
 
 </resources>

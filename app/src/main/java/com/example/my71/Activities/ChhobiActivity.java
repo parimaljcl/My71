@@ -39,16 +39,16 @@ public class ChhobiActivity extends AppCompatActivity {
         ToolBar();
 
 
-        ListView listView = Views.find(this, R.id.list_view);
+        ListView listView = Views.find(this, R.id.list_view_chobi);
         listView.setAdapter(new PaintingsAdapter(this));
 
-        listTouchInterceptor = Views.find(this, R.id.touch_interceptor_view);
+        listTouchInterceptor = Views.find(this, R.id.touch_interceptor_view_chobi);
         listTouchInterceptor.setClickable(false);
 
-        detailsLayout = Views.find(this, R.id.details_layout);
+        detailsLayout = Views.find(this, R.id.details_layout_chobi);
         detailsLayout.setVisibility(View.INVISIBLE);
 
-        unfoldableView = Views.find(this, R.id.unfoldable_view);
+        unfoldableView = Views.find(this, R.id.unfoldable_view_chobi);
 
         Bitmap glance = BitmapFactory.decodeResource(getResources(), R.drawable.unfold_glance);
         unfoldableView.setFoldShading(new GlanceFoldShading(glance));
@@ -98,9 +98,9 @@ public class ChhobiActivity extends AppCompatActivity {
     }
 
     public void openDetails(View coverView, Painting painting) {
-        final ImageView image = Views.find(detailsLayout, R.id.details_image);
-        final TextView title = Views.find(detailsLayout, R.id.details_title);
-        final TextView description = Views.find(detailsLayout, R.id.details_text);
+        final ImageView image = Views.find(detailsLayout, R.id.details_image_chobi);
+        final TextView title = Views.find(detailsLayout, R.id.details_title_chobi);
+        final TextView description = Views.find(detailsLayout, R.id.details_text_chobi);
 
         GlideHelper.loadPaintingImage(image, painting);
         title.setText(painting.getTitle());

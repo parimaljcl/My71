@@ -63,9 +63,9 @@ public class PaintingsAdapter extends ItemsAdapter<Painting, PaintingsAdapter.Vi
         final TextView title;
 
         ViewHolder(ViewGroup parent) {
-            super(Views.inflate(parent, R.layout.list_item));
-            image = Views.find(itemView, R.id.list_item_image);
-            title = Views.find(itemView, R.id.list_item_title);
+            super(Views.inflate(parent, R.layout.list_item_chobi));
+            image = Views.find(itemView, R.id.list_item_image_chobi);
+            title = Views.find(itemView, R.id.list_item_title_chobi);
         }
     }
 
