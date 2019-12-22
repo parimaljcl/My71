@@ -22,7 +22,6 @@ public class muktibahini extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_muktibahini);
 
-        //ToolBar();
 
         Intent intent = getIntent();
         String intentValue =  intent.getExtras().getString("IntentValue");
@@ -69,15 +68,4 @@ public class muktibahini extends AppCompatActivity {
     }
 
 
-    private void ToolBar() {
-
-
-
-        //toolbar name ==>
-
-
-
-
-
-    }
 }
