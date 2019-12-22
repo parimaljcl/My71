@@ -29,8 +29,22 @@ public class muktibahini extends AppCompatActivity {
 
         if (intentValue.equals("10")){
 
-            TvMuktibahini = findViewById(R.id.tvMuktibahini);
+
             TvMuktibahini.setText(R.string.muktibahibistring);
+
+        }
+
+        if (intentValue.equals("11")){
+
+
+            TvMuktibahini.setText(R.string.buddhijibistring);
+
+        }
+
+        if (intentValue.equals("12")){
+
+            
+            TvMuktibahini.setText(R.string.sevenmarchstring);
 
         }
 

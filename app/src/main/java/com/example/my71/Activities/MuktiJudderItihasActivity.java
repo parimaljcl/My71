@@ -73,7 +73,7 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
         Gerila.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MuktiJudderItihasActivity.this,MuktiJudderItihasActivity.class);
+                Intent intent=new Intent(MuktiJudderItihasActivity.this,muktibahini.class);
                 //intent.putExtra("IntentValue","9");
                 startActivity(intent);
             }
@@ -90,16 +90,16 @@ public class MuktiJudderItihasActivity extends AppCompatActivity {
         Buddhijibi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MuktiJudderItihasActivity.this,MuktiJudderItihasActivity.class);
-                //intent.putExtra("IntentValue","11");
+                Intent intent=new Intent(MuktiJudderItihasActivity.this,muktibahini.class);
+                intent.putExtra("IntentValue","11");
                 startActivity(intent);
             }
         });
         SevenMarch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MuktiJudderItihasActivity.this,MuktiJudderItihasActivity.class);
-                //intent.putExtra("IntentValue","12");
+                Intent intent=new Intent(MuktiJudderItihasActivity.this,muktibahini.class);
+                intent.putExtra("IntentValue","12");
                 startActivity(intent);
             }
         });
